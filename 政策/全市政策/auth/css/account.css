@@ -1,0 +1,11 @@
+html.szpa-checking body { visibility: hidden !important; }
+.szpa-account { position: relative; display: flex; align-items: center; gap: 10px; padding-left: 14px; margin-left: 3px; border-left: 1px solid #d9ded3; color: #3c5846; font: 11px/1.6 "Microsoft YaHei", "PingFang SC", sans-serif; }
+.szpa-account .szpa-account-name { display: inline-block; max-width: 75px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.szpa-account button.szpa-account-logout { appearance: none; min-width: 44px; min-height: 44px; margin: 0; padding: 8px 3px; border: 0; border-radius: 0; box-shadow: none; background: transparent; color: #536b57; font: inherit; cursor: pointer; }
+.szpa-account button.szpa-account-logout:hover { color: #263e30; text-decoration: underline; }
+.szpa-account button.szpa-account-logout:focus-visible { outline: 2px solid #977b45; outline-offset: 2px; }
+.szpa-account button.szpa-account-logout:disabled { opacity: .5; cursor: wait; }
+.szpa-account .szpa-account-message { position: absolute; right: 0; top: 100%; padding: 8px 12px; width: 185px; background: #fffaf3; color: #964237; border: 1px solid #ded6c8; }
+.szpa-account [hidden] { display: none !important; }
+@media (max-width: 1100px) { .szpa-account { margin: 8px 0 0; border-left: 0; border-top: 1px solid #d9ded3; padding: 8px 14px 0; justify-content: space-between; } .szpa-account .szpa-account-name { max-width: 220px; } }
+@media print { .szpa-account { display: none !important; } html.szpa-checking body { visibility: visible !important; } }

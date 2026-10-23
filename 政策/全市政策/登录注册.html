@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F6F2">
+  <meta name="description" content="登录苏州人才政策综合展示平台，查阅科技创新创业领军人才政策。">
+  <title>欢迎登录 · 苏州人才政策</title>
+  <link rel="icon" href="auth/assets/portal-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="auth/css/auth.css">
+  <script defer src="auth/js/auth.js"></script>
+</head>
+<body class="szpa-page">
+  <a class="szpa-skip" href="#szpa-form-title">跳转到登录表单</a>
+  <main class="szpa-shell">
+    <section class="szpa-visual" aria-labelledby="szpa-platform-title">
+      <div class="szpa-place"><span class="szpa-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M8 30V18L20 9l12 9v12H8Z M5 19 20 7l15 12 M17 30V20h6v10" stroke="currentColor" stroke-width="1.3"/></svg></span><span>江南 · 苏州<small>JIANGNAN / SUZHOU</small></span></div>
+      <div class="szpa-visual-copy">
+        <p class="szpa-eyebrow">SUZHOU TALENT &amp; INNOVATION</p>
+        <h1 id="szpa-platform-title">苏州人才政策</h1>
+        <p class="szpa-platform-subtitle">科技创新创业领军人才政策<br>综合展示平台</p>
+        <div class="szpa-gold-rule" aria-hidden="true"></div>
+        <p class="szpa-visual-note">汇聚区域创新政策<br>赋能科技人才发展</p>
+      </div>
+      <img class="szpa-architecture" src="auth/assets/jiangnan-architecture.svg" width="1800" height="1000" fetchpriority="high" alt="白墙、黛瓦与水院组成的原创江南建筑插画">
+      <div class="szpa-visual-caption"><span>白墙 · 黛瓦 · 水院</span><span>POLICY / PEOPLE / POSSIBILITIES</span></div>
+    </section>
+    <section class="szpa-panel" aria-labelledby="szpa-form-title">
+      <a class="szpa-back" id="szpa-home-link" href="苏州人才政策/index.html"><span aria-hidden="true">←</span> 返回平台</a>
+      <div class="szpa-form-wrap">
+        <div class="szpa-form-heading">
+          <p class="szpa-eyebrow" id="szpa-form-kicker">WELCOME BACK</p>
+          <h2 id="szpa-form-title" tabindex="-1">欢迎登录</h2>
+          <p id="szpa-form-intro">从这里，开启您的政策探索。</p>
+        </div>
+        <div class="szpa-error-summary" id="szpa-summary" role="alert" aria-atomic="true" tabindex="-1" hidden></div>
+        <div class="szpa-success" id="szpa-success" role="status" aria-live="polite" tabindex="-1" hidden></div>
+        <form id="szpa-login-form" class="szpa-form" method="post" novalidate aria-labelledby="szpa-form-title">
+          <div class="szpa-field">
+            <label for="szpa-identifier">用户名或邮箱</label>
+            <input id="szpa-identifier" name="identifier" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="254" placeholder="请输入用户名或电子邮箱" required aria-describedby="szpa-identifier-error">
+            <p class="szpa-field-error" id="szpa-identifier-error" hidden></p>
+          </div>
+          <div class="szpa-field">
+            <label for="szpa-password">密码</label>
+            <div class="szpa-password-wrap">
+              <input id="szpa-password" name="password" type="password" autocomplete="current-password" maxlength="128" placeholder="请输入密码" required aria-describedby="szpa-password-error">
+              <button class="szpa-reveal" type="button" data-szpa-reveal="szpa-password" aria-label="显示密码" aria-pressed="false" hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2.5 12s3.4-6 9.5-6 9.5 6 9.5 6-3.4 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.5"/><path class="szpa-eye-slash" d="m4 4 16 16"/></svg></button>
+            </div>
+            <p class="szpa-field-error" id="szpa-password-error" hidden></p>
+          </div>
+          <div class="szpa-options"><label class="szpa-checkbox" for="szpa-remember"><input id="szpa-remember" name="remember" type="checkbox" disabled aria-describedby="szpa-service-note"><span>记住登录状态</span></label><span class="szpa-option-note" id="szpa-remember-note">仅在个人设备上使用</span></div>
+          <button class="szpa-submit" type="submit"><span>登 录</span><span aria-hidden="true">→</span></button>
+          <p class="szpa-switch">还没有账号？<a href="登录注册.html?mode=register" data-szpa-mode="register">立即注册 <span aria-hidden="true">↗</span></a></p>
+        </form>
+        <form id="szpa-register-form" class="szpa-form" method="post" novalidate aria-labelledby="szpa-form-title" hidden>
+          <div class="szpa-field"><label for="szpa-username">用户名</label><input id="szpa-username" name="username" type="text" autocomplete="username" minlength="3" maxlength="30" placeholder="设置您的用户名" required aria-describedby="szpa-username-hint szpa-username-error"><p class="szpa-field-hint" id="szpa-username-hint">3–30 个字符，支持中文、字母、数字、下划线及短横线。</p><p class="szpa-field-error" id="szpa-username-error" hidden></p></div>
+          <div class="szpa-field"><label for="szpa-email">电子邮箱</label><input id="szpa-email" name="email" type="email" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" placeholder="请输入有效的电子邮箱" required aria-describedby="szpa-email-error"><p class="szpa-field-error" id="szpa-email-error" hidden></p></div>
+          <div class="szpa-field"><label for="szpa-new-password">密码</label><div class="szpa-password-wrap"><input id="szpa-new-password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="64" placeholder="设置至少 8 个字符的密码" required aria-describedby="szpa-new-password-hint szpa-new-password-error"><button class="szpa-reveal" type="button" data-szpa-reveal="szpa-new-password" aria-label="显示密码" aria-pressed="false" hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2.5 12s3.4-6 9.5-6 9.5 6 9.5 6-3.4 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.5"/><path class="szpa-eye-slash" d="m4 4 16 16"/></svg></button></div><p class="szpa-field-hint" id="szpa-new-password-hint">8–64 个字符，建议组合使用字母、数字和符号。</p><p class="szpa-field-error" id="szpa-new-password-error" hidden></p></div>
+          <div class="szpa-field"><label for="szpa-confirm-password">确认密码</label><div class="szpa-password-wrap"><input id="szpa-confirm-password" name="confirmPassword" type="password" autocomplete="new-password" maxlength="64" placeholder="请再次输入密码" required aria-describedby="szpa-confirm-password-error"><button class="szpa-reveal" type="button" data-szpa-reveal="szpa-confirm-password" aria-label="显示确认密码" aria-pressed="false" hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2.5 12s3.4-6 9.5-6 9.5 6 9.5 6-3.4 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.5"/><path class="szpa-eye-slash" d="m4 4 16 16"/></svg></button></div><p class="szpa-field-error" id="szpa-confirm-password-error" hidden></p></div>
+          <button class="szpa-submit" type="submit"><span>创建账号</span><span aria-hidden="true">→</span></button>
+          <p class="szpa-switch">已有账号？<a href="登录注册.html" data-szpa-mode="login">立即登录 <span aria-hidden="true">↗</span></a></p>
+        </form>
+        <p class="szpa-service-note" id="szpa-service-note" role="status" aria-live="polite">登录后查阅政策详情与多地区对比。</p>
+        <noscript><p class="szpa-service-note">请启用 JavaScript 后使用登录与注册表单。</p></noscript>
+      </div>
+      <footer class="szpa-panel-footer"><span>苏州人才政策综合展示平台</span><span>让创新与机遇相遇</span></footer>
+    </section>
+  </main>
+</body>
+</html>

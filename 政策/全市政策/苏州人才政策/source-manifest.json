@@ -1,0 +1,507 @@
+{
+    "schemaVersion":  1,
+    "createdAt":  "2026-10-10T16:46:28.8763583+08:00",
+    "sourceRoot":  "../..",
+    "description":  "复制前SHA256清单。政策HTML仅增加szp前缀的全站导航；原政策资源及源文档保持字节一致。",
+    "files":  [
+                  {
+                      "source":  "全市政策/姑苏领军.html",
+                      "kind":  "policy-html",
+                      "sha256":  "682C0177BF3463E3A3F22856C4D2B5DD27849314FFBE100B89B85C574B1418C7",
+                      "target":  "pages/姑苏领军.html",
+                      "bytes":  2192,
+                      "title":  "姑苏领军 · 苏州市级创新创业人才政策",
+                      "integratedSha256":  "64C163A694B685ABCD91287821E491B317CBDE889820661C3B95D246A6A75086"
+                  },
+                  {
+                      "source":  "全市政策/东吴.html",
+                      "kind":  "policy-html",
+                      "sha256":  "6A10088F3217B77EA486892BA7B612DAD8731D4D3375538A0542DF10B215D448",
+                      "target":  "pages/东吴.html",
+                      "bytes":  2434,
+                      "title":  "东吴科技领军人才计划 · 吴中政策导览",
+                      "integratedSha256":  "88587047F52412CB1B722C7DEC96CB0161D9E8A0E3076B8DDEF440AE31E342AF"
+                  },
+                  {
+                      "source":  "全市政策/姑苏区.html",
+                      "kind":  "policy-html",
+                      "sha256":  "661FD9DBF1F8F8A0B3B561DCEB74581BC2DFD9FDCC7ED2A5193C515C3D1D7433",
+                      "target":  "pages/姑苏区.html",
+                      "bytes":  2530,
+                      "title":  "姑苏区科技创新创业领军人才计划 · 区级政策导览",
+                      "integratedSha256":  "7AD366EC82ACD27A8003866B44069F1B5BDEDD971500D86A9FA9459111B3EBCA"
+                  },
+                  {
+                      "source":  "全市政策/常熟.html",
+                      "kind":  "policy-html",
+                      "sha256":  "3C84CE80D58AA9F96E3FCFBC85C8C3670EEB12BA2770B82DFAE327D9E4E1B51B",
+                      "target":  "pages/常熟.html",
+                      "bytes":  2189,
+                      "title":  "常熟昆承英才 · 科技创新创业政策导览",
+                      "integratedSha256":  "0D65C63F6FC056548462C5D4E6E0104075715589D2EE3FF3343C40A6BFCE826E"
+                  },
+                  {
+                      "source":  "全市政策/昆山.html",
+                      "kind":  "policy-html",
+                      "sha256":  "3693755E264A35240A39A128ED109A3083F39FA0EB21186218FDC3A4AE881B73",
+                      "target":  "pages/昆山.html",
+                      "bytes":  2556,
+                      "title":  "昆山双创人才计划 · 创业领军专题",
+                      "integratedSha256":  "29B4FB02DB95BBB24F385164E87B8525BF3572AF8A90AF2B411D1989C5EC9BDF"
+                  },
+                  {
+                      "source":  "全市政策/金鸡湖.html",
+                      "kind":  "policy-html",
+                      "sha256":  "0A53A60131BD1412510C859047390EB505324C6F4BC7F6262A31152701CABD86",
+                      "target":  "pages/金鸡湖.html",
+                      "bytes":  2149,
+                      "title":  "金鸡湖科技领军人才 · 创新创业政策导览",
+                      "integratedSha256":  "AA5EF4781A2263BBF78E1ACC7F81C1D8129213D6E7F8B4157F8E552D320DD32F"
+                  },
+                  {
+                      "source":  "全市政策/高新区.html",
+                      "kind":  "policy-html",
+                      "sha256":  "DC07D64628A67BCEC4DFEBE5A27D74D6C3AB86AAEEF328EB0C08E7D133F4C177",
+                      "target":  "pages/高新区.html",
+                      "bytes":  2218,
+                      "title":  "高新区领军人才 · 科技创新创业政策导览",
+                      "integratedSha256":  "0A7B19A9F66ABC540A8446359C8337944CC6375854389284043973D510009F46"
+                  },
+                  {
+                      "source":  "全市政策/吴江.html",
+                      "kind":  "policy-html",
+                      "sha256":  "9D0C67BEF214EE37A2E713D3A0CE32918D0F60E5AB860BE7B7EBD6D4C598ED00",
+                      "target":  "pages/吴江.html",
+                      "bytes":  2147,
+                      "title":  "吴江领军人才 · 创新创业政策导览",
+                      "integratedSha256":  "0F4A261A092E2FD4C3A985057DC9A8A29DB6A3A1ED2F0146DE57DAADDC94D8B6"
+                  },
+                  {
+                      "source":  "全市政策/相城.html",
+                      "kind":  "policy-html",
+                      "sha256":  "1B4A0CBDE27640CE32037D01D92985DCAC1968B501C59B6BBC41734C6FBF2F35",
+                      "target":  "pages/相城.html",
+                      "bytes":  2109,
+                      "title":  "相城科技领军 · 创新创业政策导览",
+                      "integratedSha256":  "1FDD6372AC2B9CD5E3A43C7E75179EC944778771AE9DC039181C9B40B9872AD0"
+                  },
+                  {
+                      "source":  "全市政策/政策对比.html",
+                      "kind":  "policy-html",
+                      "sha256":  "0BB487E4047DACB9B51761EDAC4463E5BAF7FFE6D58A566A27956E49818CD21B",
+                      "target":  "pages/政策对比.html",
+                      "bytes":  2253,
+                      "title":  "苏州八地人才政策对比 · 一城山水，八地英才",
+                      "integratedSha256":  "03F8FFDCC798CAA68C61440B2AC09875051B0B06F777990235AFEF1FD361AFF7",
+                      "enhancement":  "仅在共享head块加入compare-selection.js，支持首页比较篮与原表定位；原页面内容、CSS、数据和app.js保持不变。"
+                  },
+                  {
+                      "target":  "pages/姑苏领军资源/app.js",
+                      "sha256":  "A63374FED3C1F180A55F6A6EC34F5F43CB108FE205FAB16B004132BB78299502",
+                      "source":  "全市政策/姑苏领军资源/app.js",
+                      "bytes":  24547,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/姑苏领军资源/policy-data.js",
+                      "sha256":  "6D5E67FC70CD7C96892D8086934F94E737A0A5720B8A5F19465862A1514DEB8F",
+                      "source":  "全市政策/姑苏领军资源/policy-data.js",
+                      "bytes":  11567,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/姑苏领军资源/source-data.js",
+                      "sha256":  "8965B39916238ABFD681EAC7792BF8A796164CC23A4E7F24FACB5FC1DE8D1A21",
+                      "source":  "全市政策/姑苏领军资源/source-data.js",
+                      "bytes":  61966,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/姑苏领军资源/styles.css",
+                      "sha256":  "AC079639301E2F345EF1205BA0DFFFD049E7999500FE4C3CE70F612E608AFA9E",
+                      "source":  "全市政策/姑苏领军资源/styles.css",
+                      "bytes":  36267,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/东吴资源/app.js",
+                      "sha256":  "D1EFD48A0120766CAB113C7975F10285EAC15024285F97863B00B7BE6C69118D",
+                      "source":  "全市政策/东吴资源/app.js",
+                      "bytes":  29518,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/东吴资源/policy-data.js",
+                      "sha256":  "62547CD478546E4ECB6546367094F055BEAF51487D7D03F6F2BEB040A890DB42",
+                      "source":  "全市政策/东吴资源/policy-data.js",
+                      "bytes":  13788,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/东吴资源/source-data.js",
+                      "sha256":  "5FA76BD8D2AD2D61D19D01AA66C9B3E2E4943380B46DBD79CCD6BE68F48D7474",
+                      "source":  "全市政策/东吴资源/source-data.js",
+                      "bytes":  87790,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/东吴资源/styles.css",
+                      "sha256":  "249D10692157C81570DD3EF8B6675B287274959366DC75CEBE5D3FD4BA1673DF",
+                      "source":  "全市政策/东吴资源/styles.css",
+                      "bytes":  63639,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/姑苏区资源/app.js",
+                      "sha256":  "CFA1A0597470BE77FED2958C18EBCCA378EA075C102F77BFACD8C7651E62520C",
+                      "source":  "全市政策/姑苏区资源/app.js",
+                      "bytes":  29397,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/姑苏区资源/policy-data.js",
+                      "sha256":  "4949C1B15F5C35814569BCC6B8CC001E820CC22C79E53AAE7E278D406F94311C",
+                      "source":  "全市政策/姑苏区资源/policy-data.js",
+                      "bytes":  13316,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/姑苏区资源/source-data.js",
+                      "sha256":  "B1CC239F518D9A5E55A7E9B2308992815DD89F86473D05924BB512AF908A68DA",
+                      "source":  "全市政策/姑苏区资源/source-data.js",
+                      "bytes":  47928,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/姑苏区资源/styles.css",
+                      "sha256":  "7B2CE431724A79DA136DE9B66296984FDEAD6E1C809DAB8AC3914B4280BA1B1C",
+                      "source":  "全市政策/姑苏区资源/styles.css",
+                      "bytes":  59277,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/常熟资源/app.js",
+                      "sha256":  "874BFF73367C338F2D390D689886D64EF4C635DE0E3D4656D557AF6541DA5438",
+                      "source":  "全市政策/常熟资源/app.js",
+                      "bytes":  21737,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/常熟资源/policy-data.js",
+                      "sha256":  "282F267033CCFADB73B9F7E71AED50085B43C86AEFFE772B7FE2E431604D90BB",
+                      "source":  "全市政策/常熟资源/policy-data.js",
+                      "bytes":  13952,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/常熟资源/source-data.js",
+                      "sha256":  "FD37145316C981B0E35251CF10F495875D971D5E50B4EB020DC2C519406DC834",
+                      "source":  "全市政策/常熟资源/source-data.js",
+                      "bytes":  52795,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/常熟资源/styles.css",
+                      "sha256":  "0EDAD959830E4BE14831DE5095D2E69A9425F844A82B0482BA890D8E4B207B00",
+                      "source":  "全市政策/常熟资源/styles.css",
+                      "bytes":  34949,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/常熟资源/使用说明.md",
+                      "sha256":  "275E6117371FCCE1173ACBC7823A5EBC301665FDDD8482E0D446242FCD574DF9",
+                      "source":  "全市政策/常熟资源/使用说明.md",
+                      "bytes":  754,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/昆山资源/app.js",
+                      "sha256":  "DD633DAD6AC724E9E5D0EAC3D06DF12B5B5FCA263B940C78D05735AA925197AC",
+                      "source":  "全市政策/昆山资源/app.js",
+                      "bytes":  32503,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/昆山资源/policy-data.js",
+                      "sha256":  "1E15D46DA6FD63E26415695EEC26A914E807B5E7BBE6A076668D08736DE510E5",
+                      "source":  "全市政策/昆山资源/policy-data.js",
+                      "bytes":  17223,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/昆山资源/source-data.js",
+                      "sha256":  "6E46C01E028CE21F0F6D5D170F683D89E4D8F6679C06270A11555A9452A2A99D",
+                      "source":  "全市政策/昆山资源/source-data.js",
+                      "bytes":  82575,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/昆山资源/styles.css",
+                      "sha256":  "ADDBB9A7FA1BAF33468E5C420D778FBBDE8ECFBA01D7C76B2B0F05FD186C7E08",
+                      "source":  "全市政策/昆山资源/styles.css",
+                      "bytes":  47122,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/金鸡湖资源/app.js",
+                      "sha256":  "DE0412972CFF6BF80BA30DD64D1A5E0BCA571014D09E3CCB5AB02836386B714E",
+                      "source":  "全市政策/金鸡湖资源/app.js",
+                      "bytes":  22016,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/金鸡湖资源/policy-data.js",
+                      "sha256":  "7687244579904147A660FFCD981FFDD11F3790B461C8A360E2A7D3BE9CA3987C",
+                      "source":  "全市政策/金鸡湖资源/policy-data.js",
+                      "bytes":  11695,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/金鸡湖资源/source-data.js",
+                      "sha256":  "54A46A65018C0EB9673A913C55BBD776C83901123E07C779A72DD3E5C4A0410A",
+                      "source":  "全市政策/金鸡湖资源/source-data.js",
+                      "bytes":  56370,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/金鸡湖资源/styles.css",
+                      "sha256":  "13CA209FE40F85DE853BEC04E1239F1373F6731578A0AB2D77F4036285906F63",
+                      "source":  "全市政策/金鸡湖资源/styles.css",
+                      "bytes":  25853,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/高新区资源/app.js",
+                      "sha256":  "118BDBBD2C0FDA7591587717C77E8BAAA7345D7BADF76618D3CADE8345780B6E",
+                      "source":  "全市政策/高新区资源/app.js",
+                      "bytes":  21262,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/高新区资源/policy-data.js",
+                      "sha256":  "261E4AAF960FC24F5DFF44D270C941675A16192BACF40F568DA7C1403E7EB523",
+                      "source":  "全市政策/高新区资源/policy-data.js",
+                      "bytes":  14036,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/高新区资源/source-data.js",
+                      "sha256":  "7628250E3A73CB147DBB9821CC29BB749E03FB1D4B3DE53B6CF0FBEE894826E5",
+                      "source":  "全市政策/高新区资源/source-data.js",
+                      "bytes":  61086,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/高新区资源/styles.css",
+                      "sha256":  "5415276EE1B2B42267E72AA9EB9879EFF979E9B54EB9BB53FD0F8DFBBB971ABC",
+                      "source":  "全市政策/高新区资源/styles.css",
+                      "bytes":  33235,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/高新区资源/使用说明.md",
+                      "sha256":  "E9073E015DE807B9F59264A65A0275D322405C6687B90296D8994513C8136039",
+                      "source":  "全市政策/高新区资源/使用说明.md",
+                      "bytes":  778,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/吴江资源/app.js",
+                      "sha256":  "7F3225E766A47DFE0EA7D0269A8CB709CC8833B72C03D81FF8C22111B8F18BCC",
+                      "source":  "全市政策/吴江资源/app.js",
+                      "bytes":  20065,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/吴江资源/policy-data.js",
+                      "sha256":  "45DCE2E399A01481A0057651A20627DD353AABB0696CFAC2779135C7BB9767D3",
+                      "source":  "全市政策/吴江资源/policy-data.js",
+                      "bytes":  14566,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/吴江资源/source-data.js",
+                      "sha256":  "83D604B1D50D65BF304488A26F1EE475CF4C4FC99CBF0DD89EC6FFBB3B34D4F7",
+                      "source":  "全市政策/吴江资源/source-data.js",
+                      "bytes":  46208,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/吴江资源/styles.css",
+                      "sha256":  "F14BA308A265173B66CCE08D1AE35FCB06E5B467F742536A9BD7A96D2C371CFE",
+                      "source":  "全市政策/吴江资源/styles.css",
+                      "bytes":  36138,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/相城资源/app.js",
+                      "sha256":  "251D3B9360D64A8B8CE3D8E45C6487075CE8999E6D934B69A971535D7A257768",
+                      "source":  "全市政策/相城资源/app.js",
+                      "bytes":  21904,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/相城资源/policy-data.js",
+                      "sha256":  "50198278131E728299AC3258AC31E53646FB6154DA3434C4A8054261346CC8DF",
+                      "source":  "全市政策/相城资源/policy-data.js",
+                      "bytes":  17063,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/相城资源/source-data.js",
+                      "sha256":  "1B072690ABFCAA61906D45CD261B106921569232A1D7D79F1CC403ED21E6D077",
+                      "source":  "全市政策/相城资源/source-data.js",
+                      "bytes":  54897,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/相城资源/styles.css",
+                      "sha256":  "8BC08D2E98382E1D18138BB52C4647D7EF74D9B36270813D6ED760DFF108182F",
+                      "source":  "全市政策/相城资源/styles.css",
+                      "bytes":  38753,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/政策对比资源/app.js",
+                      "sha256":  "8F931ABA0A62943F9E3189ADF9E1EC91C02A35168FD9943C0DC1FD5D5C76EC4E",
+                      "source":  "全市政策/政策对比资源/app.js",
+                      "bytes":  26599,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/政策对比资源/model.js",
+                      "sha256":  "6C9730A2B9C22BA06D24FE72CAEDF57CE2015DFABEF9C61E22B7659F5BF9C613",
+                      "source":  "全市政策/政策对比资源/model.js",
+                      "bytes":  1723,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/政策对比资源/policy-data.js",
+                      "sha256":  "E38B57EA36A13C1BC7397ECC34578A460F4CC4B00774EFC48E222C278DC8D23F",
+                      "source":  "全市政策/政策对比资源/policy-data.js",
+                      "bytes":  133067,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/政策对比资源/styles.css",
+                      "sha256":  "CC3ECC44A9F84F79D87F542E41486160087FDAD84454998170375728A99BDD29",
+                      "source":  "全市政策/政策对比资源/styles.css",
+                      "bytes":  30034,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/政策对比资源/suzhou-window.svg",
+                      "sha256":  "01AA7D84EA3CC12C9050FFFC2F1B66376ABD5A3A664C53F79CC43AF81E39FEE6",
+                      "source":  "全市政策/政策对比资源/suzhou-window.svg",
+                      "bytes":  2212,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/政策对比资源/workbook-data.js",
+                      "sha256":  "E67BCB19B52640B242869B376D6758A448657900ECC2F3F2E0B1A85A0BE196CE",
+                      "source":  "全市政策/政策对比资源/workbook-data.js",
+                      "bytes":  2362303,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/政策对比资源/使用说明.md",
+                      "sha256":  "B2C3B2016A951162009B762EE382C842EE0CDCB2019E37D50CBF5E66EC74EF40",
+                      "source":  "全市政策/政策对比资源/使用说明.md",
+                      "bytes":  1187,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/公共资源/昆山.png",
+                      "sha256":  "267F0D3B7A83A3CDE579EB683007A0396A9CE4B3AFC4B992FD07C62DBF63C66E",
+                      "source":  "全市政策/公共资源/昆山.png",
+                      "bytes":  782798,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "pages/公共资源/机构标识.css",
+                      "sha256":  "F02AC735C10B7863C470CE69A0C807FB2BF814F6388AD5EF07FD7AAE20141342",
+                      "source":  "全市政策/公共资源/机构标识.css",
+                      "bytes":  1963,
+                      "kind":  "original-resource"
+                  },
+                  {
+                      "target":  "东吴领军人才政策.docx",
+                      "sha256":  "CF8032E9EBCECE6609102AA132D0D02C9F8123868EEC6E116D165B62D27982B5",
+                      "source":  "东吴领军人才政策.docx",
+                      "bytes":  46533,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "姑苏区领军人才政策.docx",
+                      "sha256":  "B5BA0CB253BE718A3E45C6DD1CD7F2415337EE295D661F449177FED6EE14A768",
+                      "source":  "姑苏区领军人才政策.docx",
+                      "bytes":  32850,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "姑苏领军人才政策_市级_2026.docx",
+                      "sha256":  "295CEDAB31B43CB2B7707480C10F9972F88FEC22D338CC5F061B1407B7BF3C12",
+                      "source":  "姑苏领军人才政策_市级_2026.docx",
+                      "bytes":  48585,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "常熟市昆承英才科技创新创业领军人才计划_2026.docx",
+                      "sha256":  "7201EE39E381550B43E17EEA5DA49AF2D61CBC4E9D86D89A6D36CEF1A89C812B",
+                      "source":  "常熟市昆承英才科技创新创业领军人才计划_2026.docx",
+                      "bytes":  42694,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "昆山双创.docx",
+                      "sha256":  "A338969B57C8D888BF9555FED70F403F37BACE8ACED0A96CF0CDEA61A28C0F48",
+                      "source":  "昆山双创.docx",
+                      "bytes":  31522,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "昆山市创业领军人才专题介绍.docx",
+                      "sha256":  "3486EE5096AF7E5A618F79216CDB0FCF4949C188E833B9EF2A48B1008D314CF3",
+                      "source":  "昆山市创业领军人才专题介绍.docx",
+                      "bytes":  37079,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "相城区科技领军人才计划.docx",
+                      "sha256":  "C77B9298378F0975F37BEEE9CEBFDD2088FC3ED27F74E108D2BB3B3CE2FC7441",
+                      "source":  "相城区科技领军人才计划.docx",
+                      "bytes":  46761,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "苏州八地人才政策多维对比.xlsx",
+                      "sha256":  "20305D711C802A077F5DC4FD9EFECAF03E54D1721199EEC488F38DEC396A9941",
+                      "source":  "苏州八地人才政策多维对比.xlsx",
+                      "bytes":  105367,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "苏州吴江区创新创业领军人才计划专题介绍_2026.docx",
+                      "sha256":  "A6D3B2786F6F66C3BB9A55BA152D4D6DE1DFAB79242832DB025ABF9B4D5578B7",
+                      "source":  "苏州吴江区创新创业领军人才计划专题介绍_2026.docx",
+                      "bytes":  43659,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "苏州高新区科技创新创业领军人才计划专题介绍_2026.docx",
+                      "sha256":  "D378A584D8A76FE304AC98D91C38AB9804F9676F3816DDD734B30B147FF55882",
+                      "source":  "苏州高新区科技创新创业领军人才计划专题介绍_2026.docx",
+                      "bytes":  50322,
+                      "kind":  "source-document"
+                  },
+                  {
+                      "target":  "金鸡湖科技领军人才创新创业工程专题介绍.docx",
+                      "sha256":  "53633E6713B88131D5966298F08E423F4A829D5E380A5E2A7D83514C5430AAF2",
+                      "source":  "金鸡湖科技领军人才创新创业工程专题介绍.docx",
+                      "bytes":  49149,
+                      "kind":  "source-document"
+                  }
+              ],
+    "verifiedCopyCount":  68,
+    "integrationScope":  "10份HTML仅增加body类、共享导航DOM及CSS/JS引用；47份原资源与11份源文档保持字节一致。"
+}

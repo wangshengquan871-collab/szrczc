@@ -1,0 +1,35 @@
+{
+  "name": "suzhou-talent-policy-auth",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js and MySQL backend for the Suzhou talent policy platform",
+  "type": "commonjs",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "preview:auth": "node server/scripts/preview-auth.js",
+    "db:init": "node server/scripts/init-db.js",
+    "db:check": "node server/scripts/check-db.js",
+    "db:migrate": "node server/scripts/migrate.js",
+    "test": "node --test test/*.test.js",
+    "test:backend": "node --test test/backend.test.js test/auth-backend.test.js",
+    "test:policy": "node --test test/policy-site.test.js",
+    "test:policy:browser": "node ../.checks/policy-auth-browser.cjs",
+    "test:user-center": "node ../.checks/user-center-browser.cjs",
+    "test:user-center:pointer": "node ../.checks/user-center-pointer.cjs",
+    "test:browser": "node ../.checks/full-audit-browser.cjs",
+    "test:mysql": "node server/scripts/test-mysql.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-mysql-session": "^3.0.3",
+    "express-rate-limit": "^8.0.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "mysql2": "^3.14.0",
+    "validator": "^13.15.0"
+  }
+}

@@ -1,0 +1,53 @@
+(async () => {
+  const results = [];
+  const check = (name, passed) => { results.push({ name, passed: !!passed }); if (!passed) throw new Error('User center: ' + name); };
+  const center = document.getElementById('szp-user-center');
+  const toggle = document.getElementById('szp-user-toggle');
+  const panel = document.getElementById('szp-user-panel');
+  const key = (element, value) => element.dispatchEvent(new KeyboardEvent('keydown', { key: value, bubbles: true }));
+  const response = await fetch('/api/auth/me', { credentials: 'same-origin', cache: 'no-store' });
+  const { user } = await response.json();
+  check('API exposes real username and registration time', response.status === 200 && user.username && user.createdAt && !('password_hash' in user));
+  check('Account API prevents caching', response.headers.get('cache-control').includes('no-store') && response.headers.get('pragma') === 'no-cache');
+  check('User icon and username visible', !center.hidden && !toggle.disabled && toggle.querySelector('svg') && document.getElementById('szp-user-name').textContent === user.username);
+  check('Accessible name matches current user', toggle.getAttribute('aria-label').includes(user.username));
+  check('Registration time matches database API', document.getElementById('szp-user-created').dateTime === user.createdAt && document.getElementById('szp-user-created').textContent !== '加载中…');
+  const header = document.getElementById('szp-global-header').getBoundingClientRect();
+  const box = toggle.getBoundingClientRect();
+  check('User control remains within the navigation', box.left >= 0 && box.right <= innerWidth && box.top >= header.top && box.bottom <= header.bottom);
+  check('User center remains visible on mobile', getComputedStyle(document.getElementById('szp-user-name')).display !== 'none');
+  check('Dropdown is initially closed', panel.hidden && toggle.getAttribute('aria-expanded') === 'false');
+  toggle.click();
+  check('Click opens user dropdown', !panel.hidden && toggle.getAttribute('aria-expanded') === 'true');
+  check('Dropdown contains all requested entries', panel.textContent.includes('我的账号') && panel.textContent.includes('注册时间') && panel.textContent.includes('退出登录'));
+  check('Long username is complete in dropdown', document.getElementById('szp-user-full-name').textContent === user.username);
+  const dropdown = panel.getBoundingClientRect();
+  check('Dropdown fits viewport', dropdown.left >= 0 && dropdown.right <= innerWidth && dropdown.bottom <= innerHeight);
+  check('Account link remains internal', panel.querySelector('a').getAttribute('href') === '/account');
+  toggle.click(); check('Second click closes dropdown', panel.hidden);
+  toggle.focus(); key(toggle, 'ArrowDown');
+  const items = [...panel.querySelectorAll('[role="menuitem"]')];
+  check('ArrowDown opens and focuses account link', !panel.hidden && document.activeElement === items[0]);
+  key(items[0], 'End'); check('End focuses logout', document.activeElement === items.at(-1));
+  key(items.at(-1), 'ArrowDown'); check('ArrowDown wraps menu focus', document.activeElement === items[0]);
+  key(items[0], 'Escape'); check('Escape closes and restores trigger focus', panel.hidden && document.activeElement === toggle);
+  key(toggle, 'ArrowUp'); check('ArrowUp opens at last item', document.activeElement === items.at(-1));
+  key(items.at(-1), 'Home'); check('Home focuses first item', document.activeElement === items[0]);
+  document.body.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true }));
+  check('Outside click closes user dropdown', panel.hidden);
+  toggle.click();
+  const outside = innerWidth < 1100 ? document.querySelector('.szp-menu-toggle') : document.getElementById('szp-global-header').querySelector('[data-szp-nav=home]');
+  outside.focus();
+  await new Promise(resolve => queueMicrotask(resolve));
+  check('Tab focus outside closes user dropdown', panel.hidden);
+  if (innerWidth < 1100) {
+    const menu = document.querySelector('.szp-menu-toggle');
+    menu.click(); toggle.click();
+    check('User dropdown closes overlapping mobile menu', menu.getAttribute('aria-expanded') === 'false' && !panel.hidden);
+    menu.click();
+    check('Mobile menu closes user dropdown', panel.hidden && menu.getAttribute('aria-expanded') === 'true');
+    key(menu, 'Escape');
+  }
+  check('Original six navigation entries retain order', [...document.getElementById('szp-site-menu').children].map(el => el.dataset.szpNav || 'regions').join(',') === 'home,policies,city-policy,regions,comparison,about');
+  return results;
+})()

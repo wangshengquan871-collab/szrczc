@@ -1,0 +1,11 @@
+html.szp-session-checking body { visibility: hidden !important; }
+.szp-session-tools { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px; padding: 20px 24px; border-top: 1px solid #ddd9cb; background: #f7f5ef; color: #294c3d; font: 13px/1.7 "Microsoft YaHei", "PingFang SC", sans-serif; }
+.szp-session-tools #szp-session-name { display: inline-block; max-width: 220px; vertical-align: bottom; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.szp-session-tools a, .szp-session-tools button { color: #294c3d; text-decoration: underline; text-underline-offset: 4px; }
+.szp-session-tools button { appearance: none; min-height: 44px; padding: 8px 12px; border: 1px solid #b8ab8c; border-radius: 6px; background: transparent; font: inherit; cursor: pointer; }
+.szp-session-tools button:disabled { opacity: .55; cursor: wait; }
+.szp-session-tools a:focus-visible, .szp-session-tools button:focus-visible { outline: 2px solid #997b45; outline-offset: 4px; }
+.szp-session-tools [hidden] { display: none !important; }
+#szp-session-message { flex-basis: 100%; text-align: center; color: #974437; }
+@media (max-width: 480px) { .szp-session-tools { gap: 12px; padding: 16px; } .szp-session-tools > span:first-child { flex-basis: 100%; text-align: center; } }
+@media print { .szp-session-tools { display: none !important; } html.szp-session-checking body { visibility: visible !important; } }

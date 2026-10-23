@@ -1,0 +1,107 @@
+/* Shared navigation is scoped to szp-*; existing policy styles remain intact. */
+:root { --szp-navigation-height: 76px; }
+.szp-global-header { position: sticky; top: 0; z-index: 1000; isolation: isolate; width: 100%; max-width: none; height: var(--szp-navigation-height); min-height: var(--szp-navigation-height); margin: 0; padding: 0; box-sizing: border-box; color: #25292b; background: rgba(247,246,242,.92); border: 0; border-bottom: 1px solid rgba(37,41,43,.12); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); transition: background .3s, box-shadow .3s; font: 400 13px/1.6 "Microsoft YaHei", "PingFang SC", Arial, sans-serif; text-align: left; letter-spacing: normal; overflow-wrap: normal; word-break: normal; }
+.szp-global-header.szp-is-scrolled { background: rgba(247,246,242,.98); box-shadow: 0 3px 18px rgba(37,41,43,.05); }
+.szp-global-header *, .szp-global-header *::before, .szp-global-header *::after { box-sizing: border-box; }
+.szp-nav-inner { height: 100%; max-width: 1488px; padding: 0 42px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.szp-global-header a, .szp-global-header button { font: inherit; letter-spacing: inherit; color: inherit; text-decoration: none; }
+.szp-platform-brand { display: flex; flex-shrink: 0; align-items: center; gap: 22px; }
+.szp-brand-name { display: block; color: #25292b; font-family: "Songti SC", "SimSun", serif; font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: .1em; white-space: nowrap; }
+.szp-brand-name small { display: block; margin-top: 3px; font: 10px/1.5 "Microsoft YaHei", sans-serif; letter-spacing: .14em; color: #6c7370; }
+.szp-institute-logo { display: block; width: 276px; height: auto; object-fit: contain; }
+.szp-home-brand .szp-brand-name { padding-left: 22px; border-left: 1px solid #d5d7d1; }
+.szp-site-menu { display: flex; align-items: center; gap: 23px; height: 100%; }
+.szp-nav-actions { display: flex; align-items: center; gap: 20px; min-width: 0; height: 100%; margin-left: auto; }
+.szp-user-center { position: relative; flex-shrink: 0; }
+.szp-user-center[hidden], .szp-user-center [hidden] { display: none !important; }
+.szp-global-header .szp-user-toggle { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 8px; color: #385b4c; }
+.szp-user-icon { display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border: 1px solid #c9d2c7; border-radius: 50%; background: #edf1eb; }
+.szp-user-icon svg { width: 19px; height: 19px; stroke: currentColor; stroke-width: 1.4; }
+.szp-user-name { max-width: 96px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+.szp-user-chevron { width: 12px; height: 12px; transition: transform .2s; }
+.szp-user-toggle[aria-expanded="true"] .szp-user-chevron { transform: rotate(180deg); }
+.szp-user-panel { position: absolute; z-index: 2; right: 0; top: calc(100% + 12px); width: min(250px, calc(100vw - 32px)); padding: 12px; color: #385b4c; background: #fbfbf8; border: 1px solid #dfe2db; box-shadow: 0 14px 35px rgba(37,41,43,.1); animation: szp-menu-enter .18s ease-out; }
+.szp-user-full-name { margin: 0; padding: 3px 12px 10px; border-bottom: 1px solid #e4e6df; font-weight: 600; overflow-wrap: anywhere; }
+.szp-global-header .szp-user-item { display: block; width: 100%; min-height: 44px; padding: 11px 12px; text-align: left; line-height: 1.6; font-size: 13px; }
+.szp-user-item:hover, .szp-user-item:focus-visible { color: #294c3d; background: #edf1eb; }
+.szp-user-registered { padding: 10px 12px; color: #6c7370; font-size: 11px; }
+.szp-user-registered span, .szp-user-registered time { display: block; }
+.szp-user-registered time { margin-top: 4px; font-size: 12px; }
+.szp-global-header .szp-user-logout { border-top: 1px solid #e4e6df; }
+.szp-global-header .szp-user-logout:disabled { opacity: .55; cursor: wait; }
+.szp-user-message { margin: 6px 12px; color: #974437; font-size: 12px; }
+.szp-nav-link { display: inline-flex; align-items: center; gap: 7px; position: relative; padding: 10px 0; white-space: nowrap; font-size: 13px; line-height: 1.6; }
+.szp-global-header button { appearance: none; min-width: 0; min-height: 0; margin: 0; border: 0; border-radius: 0; background: transparent; color: inherit; font-family: inherit; cursor: pointer; box-shadow: none; }
+.szp-nav-link::after { content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 1px; background: #456456; transform: scaleX(0); transform-origin: left; transition: transform .2s; }
+.szp-nav-link:hover::after, .szp-nav-link[aria-current]::after, .szp-nav-link.szp-is-current::after { transform: scaleX(1); }
+.szp-nav-link:hover, .szp-nav-link[aria-current], .szp-nav-link.szp-is-current { color: #385b4c; }
+.szp-region-menu { height: 100%; position: relative; display: flex; align-items: center; }
+.szp-region-toggle svg { width: 12px; height: 12px; transition: transform .2s; }
+.szp-region-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
+.szp-region-panel { display: none; position: absolute; right: -26px; top: calc(100% - 1px); min-width: 245px; padding: 12px; background: #fbfbf8; border: 1px solid #dfe2db; box-shadow: 0 14px 35px rgba(37,41,43,.1); }
+.szp-region-panel a { display: block; padding: 11px 14px; font-size: 13px; line-height: 1.5; border-left: 2px solid transparent; }
+.szp-region-panel a:hover, .szp-region-panel a[aria-current] { color: #385b4c; background: #edf1eb; border-left-color: #71877b; }
+.szp-region-menu.szp-is-open > .szp-region-panel { display: block; animation: szp-menu-enter .18s ease-out; }
+.szp-global-header:not(.szp-navigation-ready) .szp-region-menu:hover .szp-region-panel, .szp-global-header:not(.szp-navigation-ready) .szp-region-menu:focus-within .szp-region-panel { display: block; }
+.szp-global-header .szp-menu-toggle { display: none; width: 44px; height: 44px; padding: 12px; }
+.szp-menu-toggle span { display: block; width: 20px; height: 1px; margin: 5px 0; background: #25292b; transition: transform .2s; }
+.szp-menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(3px) rotate(45deg); }
+.szp-menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-3px) rotate(-45deg); }
+.szp-global-header a:focus-visible, .szp-global-header button:focus-visible, .szp-skip-link:focus-visible { outline: 2px solid #aa8547; outline-offset: 5px; }
+.szp-skip-link { position: fixed; top: -100px; left: 16px; z-index: 3000; padding: 12px 18px; color: #fff; background: #314c40; }
+.szp-skip-link:focus { top: 12px; }
+/* Offset a local header only if it was already sticky/fixed in its own stylesheet. */
+body.szp-integrated > [data-szp-stacked-header] { top: calc(var(--szp-navigation-height) + var(--szp-original-header-top, 0px)); }
+body.szp-integrated .skip-link:focus { z-index: 3000; }
+.szp-child-brand::before { content: ""; width: 24px; height: 24px; border: 1px solid #6d7d73; background: linear-gradient(135deg, transparent 45%, #6d7d73 46%, #6d7d73 49%, transparent 50%); transform: rotate(45deg); }
+.szp-fallback-navigation { display: flex; align-items: center; gap: 25px; }
+@keyframes szp-menu-enter { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 1290px) and (min-width: 1100px) {
+  .szp-nav-inner { padding: 0 28px; gap: 20px; }
+  .szp-institute-logo { width: 220px; }
+  .szp-platform-brand { gap: 15px; }
+  .szp-home-brand .szp-brand-name { padding-left: 15px; }
+  .szp-brand-name { font-size: 18px; }
+  .szp-site-menu { gap: 18px; }
+  .szp-nav-actions { gap: 14px; }
+  .szp-user-name { max-width: 72px; }
+}
+@media (max-width: 1099px) {
+  .szp-nav-inner { padding: 0 24px; gap: 16px; }
+  .szp-nav-actions { gap: 12px; }
+  .szp-institute-logo { width: 265px; }
+  .szp-global-header.szp-navigation-ready .szp-menu-toggle { display: block; flex-shrink: 0; }
+  .szp-navigation-ready .szp-site-menu { display: none; position: absolute; left: 0; right: 0; top: 100%; height: auto; max-height: calc(100dvh - var(--szp-navigation-height)); overflow-y: auto; padding: 15px 24px 24px; background: #f7f6f2; border-bottom: 1px solid #d8dcd4; box-shadow: 0 14px 20px rgba(37,41,43,.06); }
+  .szp-navigation-ready .szp-site-menu.szp-is-open { display: block; }
+  .szp-navigation-ready .szp-nav-link { display: flex; padding: 13px 0; width: 100%; font-size: 14px; border-bottom: 1px solid #e4e6df; text-align: left; justify-content: space-between; }
+  .szp-nav-link::after { display: none; }
+  .szp-region-menu { display: block; height: auto; }
+  .szp-region-panel { position: static; min-width: 0; padding: 8px 0 8px 12px; background: transparent; border: 0; box-shadow: none; }
+  .szp-region-panel a { padding: 10px 14px; }
+  .szp-global-header:not(.szp-navigation-ready) { height: auto; min-height: var(--szp-navigation-height); }
+  .szp-global-header:not(.szp-navigation-ready) .szp-nav-inner { flex-wrap: wrap; padding-top: 14px; padding-bottom: 12px; }
+  .szp-global-header:not(.szp-navigation-ready) .szp-site-menu { width: 100%; flex-wrap: wrap; gap: 12px 24px; }
+}
+@media (max-width: 600px) {
+  .szp-nav-inner { padding: 0 16px; gap: 8px; }
+  .szp-home-brand { display: flex; gap: 8px; }
+  .szp-institute-logo { width: min(100px, 25vw); }
+  .szp-home-brand .szp-brand-name { padding: 0; border: 0; }
+  .szp-brand-name { font-size: 14px; letter-spacing: .03em; }
+  .szp-brand-name small { display: block; margin: 3px 0 0; font-size: 8px; letter-spacing: 0; }
+  .szp-child-brand { gap: 14px; }
+  .szp-child-brand::before { width: 20px; height: 20px; }
+  .szp-nav-actions { gap: 6px; }
+  .szp-global-header .szp-menu-toggle { width: 40px; padding: 10px; }
+  .szp-global-header .szp-user-toggle { gap: 6px; padding: 6px; }
+  .szp-user-icon { width: 24px; height: 24px; }
+  .szp-user-name { max-width: 56px; }
+  .szp-user-chevron { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .szp-global-header, .szp-global-header *, .szp-global-header *::after { animation: none !important; transition: none !important; }
+}
+@media print {
+  .szp-global-header, .szp-skip-link { display: none !important; }
+  body.szp-integrated > [data-szp-stacked-header] { top: var(--szp-original-header-top, 0px); }
+}

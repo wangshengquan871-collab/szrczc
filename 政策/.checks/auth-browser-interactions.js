@@ -1,0 +1,37 @@
+(async () => {
+  const checks = [];
+  const check = (name, passed) => { checks.push({ name, passed: !!passed }); if (!passed) throw new Error(name); };
+  const $ = id => document.getElementById(id);
+  const style = el => getComputedStyle(el);
+  check('完整平台名称', $('szpa-platform-title').textContent === '苏州人才政策');
+  check('无整体横向溢出', document.documentElement.scrollWidth <= innerWidth + 1);
+  check('建筑与页面标识已加载', [...document.images].every(image => image.complete && image.naturalWidth > 0));
+  check('服务未就绪时禁用记住登录', $('szpa-remember').disabled);
+  check('所有输入关联标签', [...document.querySelectorAll('input')].every(input => !!document.querySelector(`label[for="${input.id}"]`)));
+  $('szpa-login-form').requestSubmit();
+  check('空账号提示与焦点', !$('szpa-identifier-error').hidden && document.activeElement === $('szpa-identifier'));
+  check('空密码提示', !$('szpa-password-error').hidden);
+  $('szpa-password').value = 'Example123';
+  document.querySelector('[data-szpa-reveal="szpa-password"]').click();
+  check('显示密码与无障碍状态', $('szpa-password').type === 'text' && document.querySelector('[data-szpa-reveal="szpa-password"]').getAttribute('aria-pressed') === 'true');
+  document.querySelector('[data-szpa-reveal="szpa-password"]').click();
+  check('隐藏密码', $('szpa-password').type === 'password');
+  $('szpa-identifier').value = 'example';
+  $('szpa-login-form').requestSubmit();
+  await new Promise(resolve => setTimeout(resolve, 80));
+  check('预览提交显示页内错误', !$('szpa-summary').hidden && $('szpa-summary').textContent.includes('界面预览'));
+  check('错误摘要可获键盘焦点', document.activeElement === $('szpa-summary'));
+  document.querySelector('[data-szpa-mode="register"]').click();
+  check('注册入口可打开', !$('szpa-register-form').hidden && $('szpa-login-form').hidden && $('szpa-form-title').textContent === '创建账户');
+  $('szpa-register-form').requestSubmit();
+  check('注册字段错误验证', !$('szpa-username-error').hidden && !$('szpa-email-error').hidden && !$('szpa-new-password-error').hidden);
+  $('szpa-username').value = '测试用户'; $('szpa-email').value = 'test@example.com'; $('szpa-new-password').value = 'Example123'; $('szpa-confirm-password').value = 'different';
+  $('szpa-register-form').requestSubmit();
+  check('确认密码验证', !$('szpa-confirm-password-error').hidden);
+  check('注册无整体横向溢出', document.documentElement.scrollWidth <= innerWidth + 1);
+  document.querySelector('[data-szpa-mode="login"]').click();
+  check('返回登录', !$('szpa-login-form').hidden && $('szpa-register-form').hidden);
+  check('切换清除密码', $('szpa-new-password').value === '' && $('szpa-password').value === '');
+  check('减少动画偏好', style(document.querySelector('.szpa-form-wrap')).animationName === 'none');
+  return checks;
+})()

@@ -1,0 +1,326 @@
+﻿[
+    {
+        "path":  "index.html",
+        "sha256":  "12C01D1BCAE7DB1772F92A30B62F97084BDA61299722C23349228980B9837BD6"
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "5089DE953B6B6508419AB9EEBE3198FA5B9013CD659935B666FBC29968CD6538"
+    },
+    {
+        "path":  "source-manifest.json",
+        "sha256":  "997F27EE541A20353CAC56BD86FB330775007C2E16BF74A75E6E68202DDD71F2"
+    },
+    {
+        "path":  "东吴领军人才政策.docx",
+        "sha256":  "CF8032E9EBCECE6609102AA132D0D02C9F8123868EEC6E116D165B62D27982B5"
+    },
+    {
+        "path":  "姑苏区领军人才政策.docx",
+        "sha256":  "B5BA0CB253BE718A3E45C6DD1CD7F2415337EE295D661F449177FED6EE14A768"
+    },
+    {
+        "path":  "姑苏领军人才政策_市级_2026.docx",
+        "sha256":  "295CEDAB31B43CB2B7707480C10F9972F88FEC22D338CC5F061B1407B7BF3C12"
+    },
+    {
+        "path":  "常熟市昆承英才科技创新创业领军人才计划_2026.docx",
+        "sha256":  "7201EE39E381550B43E17EEA5DA49AF2D61CBC4E9D86D89A6D36CEF1A89C812B"
+    },
+    {
+        "path":  "昆山双创.docx",
+        "sha256":  "A338969B57C8D888BF9555FED70F403F37BACE8ACED0A96CF0CDEA61A28C0F48"
+    },
+    {
+        "path":  "昆山市创业领军人才专题介绍.docx",
+        "sha256":  "3486EE5096AF7E5A618F79216CDB0FCF4949C188E833B9EF2A48B1008D314CF3"
+    },
+    {
+        "path":  "相城区科技领军人才计划.docx",
+        "sha256":  "C77B9298378F0975F37BEEE9CEBFDD2088FC3ED27F74E108D2BB3B3CE2FC7441"
+    },
+    {
+        "path":  "苏州八地人才政策多维对比.xlsx",
+        "sha256":  "20305D711C802A077F5DC4FD9EFECAF03E54D1721199EEC488F38DEC396A9941"
+    },
+    {
+        "path":  "苏州吴江区创新创业领军人才计划专题介绍_2026.docx",
+        "sha256":  "A6D3B2786F6F66C3BB9A55BA152D4D6DE1DFAB79242832DB025ABF9B4D5578B7"
+    },
+    {
+        "path":  "苏州高新区科技创新创业领军人才计划专题介绍_2026.docx",
+        "sha256":  "D378A584D8A76FE304AC98D91C38AB9804F9676F3816DDD734B30B147FF55882"
+    },
+    {
+        "path":  "金鸡湖科技领军人才创新创业工程专题介绍.docx",
+        "sha256":  "53633E6713B88131D5966298F08E423F4A829D5E380A5E2A7D83514C5430AAF2"
+    },
+    {
+        "path":  "assets\\images\\jiangnan-architecture.svg",
+        "sha256":  "6F064DCC78D7A9E9DB4E18AE4DEEDFB81C7F7228193F4ADA723C0599D3961474"
+    },
+    {
+        "path":  "assets\\images\\portal-mark.svg",
+        "sha256":  "7FEA1DE9032F8D588256C6329FCCE0685581CEB8E54AAF5DDEEB1CB69CBDC3EF"
+    },
+    {
+        "path":  "css\\home-tools.css",
+        "sha256":  "87684A8DA639375F21C81F9A0D1A1271C9D25030F2241DFDF225B1613E71FF94"
+    },
+    {
+        "path":  "css\\main.css",
+        "sha256":  "CAA83CB2B79AC9F49130E44A15D23832C9A0DB6D3B34784600B89881C62F9253"
+    },
+    {
+        "path":  "css\\navigation.css",
+        "sha256":  "8EA395EE0B20CB224A7CCC239198991608C2D78F48225EDD52CC1A98958AE9FE"
+    },
+    {
+        "path":  "data\\portal-data.json",
+        "sha256":  "B68FFFFCD25C6EFA65F98CA10BA1A1FB39C86E73214D7AD3FC4B5C3C29C8019C"
+    },
+    {
+        "path":  "js\\compare-selection.js",
+        "sha256":  "6C854456276DE8FF42FE5479EFBB66ACE0BCF51FEDEABDC4CD9F395206F9EC34"
+    },
+    {
+        "path":  "js\\home-tools.js",
+        "sha256":  "8902AEFC203C7B7BCB88A848D4EFF6B47B72697608099AE49139E44A1E322A1F"
+    },
+    {
+        "path":  "js\\main.js",
+        "sha256":  "BA4145827E5F66B9AA13E55B4D7720D05A4606DA079B8522436FD32C38468FC2"
+    },
+    {
+        "path":  "js\\navigation.js",
+        "sha256":  "EE4E58F48064319116839F7745AF92893E8EF67CC68D326491FD35AB4854710A"
+    },
+    {
+        "path":  "pages\\东吴.html",
+        "sha256":  "88587047F52412CB1B722C7DEC96CB0161D9E8A0E3076B8DDEF440AE31E342AF"
+    },
+    {
+        "path":  "pages\\吴江.html",
+        "sha256":  "0F4A261A092E2FD4C3A985057DC9A8A29DB6A3A1ED2F0146DE57DAADDC94D8B6"
+    },
+    {
+        "path":  "pages\\姑苏区.html",
+        "sha256":  "7AD366EC82ACD27A8003866B44069F1B5BDEDD971500D86A9FA9459111B3EBCA"
+    },
+    {
+        "path":  "pages\\姑苏领军.html",
+        "sha256":  "64C163A694B685ABCD91287821E491B317CBDE889820661C3B95D246A6A75086"
+    },
+    {
+        "path":  "pages\\常熟.html",
+        "sha256":  "0D65C63F6FC056548462C5D4E6E0104075715589D2EE3FF3343C40A6BFCE826E"
+    },
+    {
+        "path":  "pages\\政策对比.html",
+        "sha256":  "03F8FFDCC798CAA68C61440B2AC09875051B0B06F777990235AFEF1FD361AFF7"
+    },
+    {
+        "path":  "pages\\昆山.html",
+        "sha256":  "29B4FB02DB95BBB24F385164E87B8525BF3572AF8A90AF2B411D1989C5EC9BDF"
+    },
+    {
+        "path":  "pages\\相城.html",
+        "sha256":  "1FDD6372AC2B9CD5E3A43C7E75179EC944778771AE9DC039181C9B40B9872AD0"
+    },
+    {
+        "path":  "pages\\金鸡湖.html",
+        "sha256":  "AA5EF4781A2263BBF78E1ACC7F81C1D8129213D6E7F8B4157F8E552D320DD32F"
+    },
+    {
+        "path":  "pages\\高新区.html",
+        "sha256":  "0A7B19A9F66ABC540A8446359C8337944CC6375854389284043973D510009F46"
+    },
+    {
+        "path":  "pages\\东吴资源\\app.js",
+        "sha256":  "D1EFD48A0120766CAB113C7975F10285EAC15024285F97863B00B7BE6C69118D"
+    },
+    {
+        "path":  "pages\\东吴资源\\policy-data.js",
+        "sha256":  "62547CD478546E4ECB6546367094F055BEAF51487D7D03F6F2BEB040A890DB42"
+    },
+    {
+        "path":  "pages\\东吴资源\\source-data.js",
+        "sha256":  "5FA76BD8D2AD2D61D19D01AA66C9B3E2E4943380B46DBD79CCD6BE68F48D7474"
+    },
+    {
+        "path":  "pages\\东吴资源\\styles.css",
+        "sha256":  "249D10692157C81570DD3EF8B6675B287274959366DC75CEBE5D3FD4BA1673DF"
+    },
+    {
+        "path":  "pages\\公共资源\\昆山.png",
+        "sha256":  "267F0D3B7A83A3CDE579EB683007A0396A9CE4B3AFC4B992FD07C62DBF63C66E"
+    },
+    {
+        "path":  "pages\\公共资源\\机构标识.css",
+        "sha256":  "F02AC735C10B7863C470CE69A0C807FB2BF814F6388AD5EF07FD7AAE20141342"
+    },
+    {
+        "path":  "pages\\吴江资源\\app.js",
+        "sha256":  "7F3225E766A47DFE0EA7D0269A8CB709CC8833B72C03D81FF8C22111B8F18BCC"
+    },
+    {
+        "path":  "pages\\吴江资源\\policy-data.js",
+        "sha256":  "45DCE2E399A01481A0057651A20627DD353AABB0696CFAC2779135C7BB9767D3"
+    },
+    {
+        "path":  "pages\\吴江资源\\source-data.js",
+        "sha256":  "83D604B1D50D65BF304488A26F1EE475CF4C4FC99CBF0DD89EC6FFBB3B34D4F7"
+    },
+    {
+        "path":  "pages\\吴江资源\\styles.css",
+        "sha256":  "F14BA308A265173B66CCE08D1AE35FCB06E5B467F742536A9BD7A96D2C371CFE"
+    },
+    {
+        "path":  "pages\\姑苏区资源\\app.js",
+        "sha256":  "CFA1A0597470BE77FED2958C18EBCCA378EA075C102F77BFACD8C7651E62520C"
+    },
+    {
+        "path":  "pages\\姑苏区资源\\policy-data.js",
+        "sha256":  "4949C1B15F5C35814569BCC6B8CC001E820CC22C79E53AAE7E278D406F94311C"
+    },
+    {
+        "path":  "pages\\姑苏区资源\\source-data.js",
+        "sha256":  "B1CC239F518D9A5E55A7E9B2308992815DD89F86473D05924BB512AF908A68DA"
+    },
+    {
+        "path":  "pages\\姑苏区资源\\styles.css",
+        "sha256":  "7B2CE431724A79DA136DE9B66296984FDEAD6E1C809DAB8AC3914B4280BA1B1C"
+    },
+    {
+        "path":  "pages\\姑苏领军资源\\app.js",
+        "sha256":  "A63374FED3C1F180A55F6A6EC34F5F43CB108FE205FAB16B004132BB78299502"
+    },
+    {
+        "path":  "pages\\姑苏领军资源\\policy-data.js",
+        "sha256":  "6D5E67FC70CD7C96892D8086934F94E737A0A5720B8A5F19465862A1514DEB8F"
+    },
+    {
+        "path":  "pages\\姑苏领军资源\\source-data.js",
+        "sha256":  "8965B39916238ABFD681EAC7792BF8A796164CC23A4E7F24FACB5FC1DE8D1A21"
+    },
+    {
+        "path":  "pages\\姑苏领军资源\\styles.css",
+        "sha256":  "AC079639301E2F345EF1205BA0DFFFD049E7999500FE4C3CE70F612E608AFA9E"
+    },
+    {
+        "path":  "pages\\常熟资源\\app.js",
+        "sha256":  "874BFF73367C338F2D390D689886D64EF4C635DE0E3D4656D557AF6541DA5438"
+    },
+    {
+        "path":  "pages\\常熟资源\\policy-data.js",
+        "sha256":  "282F267033CCFADB73B9F7E71AED50085B43C86AEFFE772B7FE2E431604D90BB"
+    },
+    {
+        "path":  "pages\\常熟资源\\source-data.js",
+        "sha256":  "FD37145316C981B0E35251CF10F495875D971D5E50B4EB020DC2C519406DC834"
+    },
+    {
+        "path":  "pages\\常熟资源\\styles.css",
+        "sha256":  "0EDAD959830E4BE14831DE5095D2E69A9425F844A82B0482BA890D8E4B207B00"
+    },
+    {
+        "path":  "pages\\常熟资源\\使用说明.md",
+        "sha256":  "275E6117371FCCE1173ACBC7823A5EBC301665FDDD8482E0D446242FCD574DF9"
+    },
+    {
+        "path":  "pages\\政策对比资源\\app.js",
+        "sha256":  "8F931ABA0A62943F9E3189ADF9E1EC91C02A35168FD9943C0DC1FD5D5C76EC4E"
+    },
+    {
+        "path":  "pages\\政策对比资源\\model.js",
+        "sha256":  "6C9730A2B9C22BA06D24FE72CAEDF57CE2015DFABEF9C61E22B7659F5BF9C613"
+    },
+    {
+        "path":  "pages\\政策对比资源\\policy-data.js",
+        "sha256":  "E38B57EA36A13C1BC7397ECC34578A460F4CC4B00774EFC48E222C278DC8D23F"
+    },
+    {
+        "path":  "pages\\政策对比资源\\styles.css",
+        "sha256":  "CC3ECC44A9F84F79D87F542E41486160087FDAD84454998170375728A99BDD29"
+    },
+    {
+        "path":  "pages\\政策对比资源\\suzhou-window.svg",
+        "sha256":  "01AA7D84EA3CC12C9050FFFC2F1B66376ABD5A3A664C53F79CC43AF81E39FEE6"
+    },
+    {
+        "path":  "pages\\政策对比资源\\workbook-data.js",
+        "sha256":  "E67BCB19B52640B242869B376D6758A448657900ECC2F3F2E0B1A85A0BE196CE"
+    },
+    {
+        "path":  "pages\\政策对比资源\\使用说明.md",
+        "sha256":  "B2C3B2016A951162009B762EE382C842EE0CDCB2019E37D50CBF5E66EC74EF40"
+    },
+    {
+        "path":  "pages\\昆山资源\\app.js",
+        "sha256":  "DD633DAD6AC724E9E5D0EAC3D06DF12B5B5FCA263B940C78D05735AA925197AC"
+    },
+    {
+        "path":  "pages\\昆山资源\\policy-data.js",
+        "sha256":  "1E15D46DA6FD63E26415695EEC26A914E807B5E7BBE6A076668D08736DE510E5"
+    },
+    {
+        "path":  "pages\\昆山资源\\source-data.js",
+        "sha256":  "6E46C01E028CE21F0F6D5D170F683D89E4D8F6679C06270A11555A9452A2A99D"
+    },
+    {
+        "path":  "pages\\昆山资源\\styles.css",
+        "sha256":  "ADDBB9A7FA1BAF33468E5C420D778FBBDE8ECFBA01D7C76B2B0F05FD186C7E08"
+    },
+    {
+        "path":  "pages\\相城资源\\app.js",
+        "sha256":  "251D3B9360D64A8B8CE3D8E45C6487075CE8999E6D934B69A971535D7A257768"
+    },
+    {
+        "path":  "pages\\相城资源\\policy-data.js",
+        "sha256":  "50198278131E728299AC3258AC31E53646FB6154DA3434C4A8054261346CC8DF"
+    },
+    {
+        "path":  "pages\\相城资源\\source-data.js",
+        "sha256":  "1B072690ABFCAA61906D45CD261B106921569232A1D7D79F1CC403ED21E6D077"
+    },
+    {
+        "path":  "pages\\相城资源\\styles.css",
+        "sha256":  "8BC08D2E98382E1D18138BB52C4647D7EF74D9B36270813D6ED760DFF108182F"
+    },
+    {
+        "path":  "pages\\金鸡湖资源\\app.js",
+        "sha256":  "DE0412972CFF6BF80BA30DD64D1A5E0BCA571014D09E3CCB5AB02836386B714E"
+    },
+    {
+        "path":  "pages\\金鸡湖资源\\policy-data.js",
+        "sha256":  "7687244579904147A660FFCD981FFDD11F3790B461C8A360E2A7D3BE9CA3987C"
+    },
+    {
+        "path":  "pages\\金鸡湖资源\\source-data.js",
+        "sha256":  "54A46A65018C0EB9673A913C55BBD776C83901123E07C779A72DD3E5C4A0410A"
+    },
+    {
+        "path":  "pages\\金鸡湖资源\\styles.css",
+        "sha256":  "13CA209FE40F85DE853BEC04E1239F1373F6731578A0AB2D77F4036285906F63"
+    },
+    {
+        "path":  "pages\\高新区资源\\app.js",
+        "sha256":  "118BDBBD2C0FDA7591587717C77E8BAAA7345D7BADF76618D3CADE8345780B6E"
+    },
+    {
+        "path":  "pages\\高新区资源\\policy-data.js",
+        "sha256":  "261E4AAF960FC24F5DFF44D270C941675A16192BACF40F568DA7C1403E7EB523"
+    },
+    {
+        "path":  "pages\\高新区资源\\source-data.js",
+        "sha256":  "7628250E3A73CB147DBB9821CC29BB749E03FB1D4B3DE53B6CF0FBEE894826E5"
+    },
+    {
+        "path":  "pages\\高新区资源\\styles.css",
+        "sha256":  "5415276EE1B2B42267E72AA9EB9879EFF979E9B54EB9BB53FD0F8DFBBB971ABC"
+    },
+    {
+        "path":  "pages\\高新区资源\\使用说明.md",
+        "sha256":  "E9073E015DE807B9F59264A65A0275D322405C6687B90296D8994513C8136039"
+    }
+]

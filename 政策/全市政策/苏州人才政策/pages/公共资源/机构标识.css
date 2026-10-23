@@ -1,0 +1,119 @@
+/* 各政策页面共用的机构标识，与政策标题并排显示。 */
+.site-header {
+  gap: 18px;
+}
+
+.site-header .header-identity {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-width: 0;
+  flex: 0 1 auto;
+}
+
+.site-header .institute-header-logo {
+  display: block;
+  width: 260px;
+  height: auto;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.site-header .header-identity .brand {
+  min-width: 0;
+}
+
+.site-header .header-identity .brand-mark,
+.site-header > button {
+  flex-shrink: 0;
+}
+
+@media (max-width: 1200px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+
+  .site-header > nav {
+    order: 3;
+    flex-basis: 100%;
+    width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .site-header .header-identity {
+    gap: 14px;
+  }
+
+  .site-header .institute-header-logo {
+    width: 220px;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    gap: 12px;
+  }
+
+  .site-header .header-identity {
+    flex-basis: 100%;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .site-header .institute-header-logo {
+    width: clamp(116px, 35vw, 144px);
+  }
+
+  .site-header .header-identity .brand {
+    flex: 0 1 auto;
+    white-space: normal;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .site-header .header-identity .brand > span:last-child {
+    min-width: 0;
+  }
+
+  .site-header .header-identity .brand small,
+  .site-header .header-identity .brand-subtitle {
+    font-size: 6px;
+    line-height: 1.5;
+    letter-spacing: .03em;
+    overflow-wrap: anywhere;
+  }
+
+  .site-header > nav {
+    order: 2;
+    flex: 1 1 0;
+    width: 0;
+    margin-right: 0;
+    white-space: nowrap;
+    scrollbar-width: thin;
+  }
+
+  .site-header > button {
+    order: 3;
+    align-self: flex-start;
+  }
+}
+
+@media print {
+  .site-header {
+    flex-wrap: nowrap;
+  }
+
+  .site-header .header-identity {
+    flex-basis: auto;
+    width: auto;
+    gap: 14pt;
+  }
+
+  .site-header .institute-header-logo {
+    width: 65mm;
+    max-width: 45%;
+  }
+}

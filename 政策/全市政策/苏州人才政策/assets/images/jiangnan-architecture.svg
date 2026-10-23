@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000" fill="none">
+  <title>白墙水院 · 原创江南建筑意象</title>
+  <desc>以白墙、灰色几何屋面、采光窗、片石和水院绘制的原创建筑插画，非实景照片。</desc>
+  <defs>
+    <linearGradient id="sky" x1="900" y1="0" x2="900" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#F1F0E9"/><stop offset=".58" stop-color="#F8F8F1"/><stop offset="1" stop-color="#D9DFD5"/></linearGradient>
+    <linearGradient id="water" x1="1200" y1="650" x2="1200" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#B4C0B1"/><stop offset=".45" stop-color="#CBD3C5"/><stop offset="1" stop-color="#DFE3D7"/></linearGradient>
+    <linearGradient id="wall" x1="900" y1="410" x2="1600" y2="680" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFB"/><stop offset="1" stop-color="#E5E6DC"/></linearGradient>
+    <linearGradient id="roof" x1="1200" y1="300" x2="1250" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#58615B"/><stop offset="1" stop-color="#343E37"/></linearGradient>
+    <linearGradient id="glass" x1="1220" y1="395" x2="1435" y2="645" gradientUnits="userSpaceOnUse"><stop stop-color="#72877B"/><stop offset="1" stop-color="#ADBBA9"/></linearGradient>
+    <linearGradient id="fade"><stop stop-color="white" stop-opacity=".55"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <pattern id="ripples" width="220" height="29" patternUnits="userSpaceOnUse"><path d="M0 4h72m45 0h58M30 21h110m24 0h39" stroke="#F6F7ED" stroke-opacity=".32" stroke-width="1"/></pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+    <g id="building">
+      <!-- Layered white garden walls and restrained granite roof geometry. -->
+      <path d="M690 576V502l147-69 147 69v115Z" fill="#F5F5EC"/>
+      <path d="m683 505 154-79 154 79-6 13-148-72-147 72Z" fill="#6B756B"/>
+      <path d="M950 650V466l218-144 218 144v184Z" fill="url(#wall)"/>
+      <path d="m934 468 234-157 234 157-16 24-218-149-218 149Z" fill="url(#roof)"/>
+      <path d="m1168 311 234 157-16 24-218-149Z" fill="#69746A"/>
+      <path d="m1168 311-234 157 16 24 218-149Z" fill="#3D4941"/>
+      <path d="M949 494v156h32V479l187-127 187 127v171h31V494l-218-147Z" fill="#D6DBCF" opacity=".55"/>
+      <path d="M1046 650V463l122-83 122 83v187Z" fill="#5F7367"/>
+      <path d="M1058 650V470l110-75 110 75v180Z" fill="url(#glass)"/>
+      <path d="M1168 395v255m-56-217v217m112-217v217m-167-159h221m-221 54h221m-221 54h221" stroke="#E8ECE1" stroke-width="3"/>
+      <path d="M1058 630h220" stroke="#52655A" stroke-width="8"/>
+      <path d="M1386 650V466l220-71 175 109v146Z" fill="#F1F2E8"/>
+      <path d="m1364 463 242-82 194 120-19 21-175-112-220 75Z" fill="#5D685D"/>
+      <path d="m1606 381 194 120-19 21-175-112Z" fill="#38443C"/>
+      <path d="M1435 500h287v150h-287Z" fill="#D7DECF"/>
+      <path d="M1444 506h267v144h-267Z" fill="#A3B09C"/>
+      <path d="M1487 506v144m45-144v144m45-144v144m45-144v144m45-144v144M1444 554h267m-267 48h267" stroke="#EEF1E6" stroke-width="3"/>
+      <path d="M1282 652V569h211v83Z" fill="#FEFEF8"/>
+      <path d="M1270 569h235v8h-235Z" fill="#818B7A"/>
+      <path d="M714 651V580h331v71Z" fill="#FBFBF4"/>
+      <path d="M702 577h344v11H702Z" fill="#677665"/>
+      <path d="M764 621h91v30h-91Z" fill="#D5DDCF"/>
+      <path d="M759 615h102v7H759Z" fill="#7F8F7B"/>
+      <path d="M689 650h1092v11H689Z" fill="#A1AD99"/>
+      <path d="M695 661h1086v6H695Z" fill="#657762"/>
+    </g>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1800v1000H0z"/>
+  <circle cx="1380" cy="172" r="110" fill="#FCFCF5" opacity=".65"/>
+  <!-- Distant garden vegetation, kept quiet behind the architectural silhouette. -->
+  <g fill="#ABB6A0" opacity=".25" filter="url(#soft)"><path d="M1545 542c-51-133-16-273 20-337 48 36 79 205 55 337Z"/><path d="M1617 544c-21-119-11-204 43-260 36 77 53 159 31 260Z"/><path d="M900 580c-32-109-58-228 9-288 46 66 67 179 40 288Z"/></g>
+  <path d="M0 658c420-18 600-10 900-3s582-14 900-2v347H0Z" fill="url(#water)"/>
+  <use href="#building"/>
+  <g opacity=".16" transform="translate(0 1328) scale(1 -1)"><use href="#building"/></g>
+  <!-- A stone garden composed from angular silhouettes. -->
+  <path d="M719 651 747 603 781 612 805 574 850 594 892 557 932 608 974 601 1016 651Z" fill="#8C9A84"/>
+  <path d="m750 648 24-34 33 10 42-29 15 50Z" fill="#B9C1AF"/>
+  <path d="m869 645 23-75 27 39 25-1 30 40Z" fill="#75856D"/>
+  <path d="m787 650 17-64 44 16 17 48Z" fill="#9FAE92"/>
+  <path d="M733 666h294" stroke="#ECF0E3" stroke-width="2"/>
+  <path d="M0 665h1800v335H0Z" fill="url(#ripples)"/>
+  <g stroke="#94A58C" stroke-opacity=".45"><path d="M944 752h321m-259 6h172m183 75h213m-763 57h285m403 5h180"/><path d="M668 690h392m-281 17h191m316 68h321m-205 9h158"/></g>
+  <!-- Courtyard edge and a slender bridge across the foreground water. -->
+  <path d="m1800 754-331 89 4 11 327-80Z" fill="#ECEEE3"/>
+  <path d="m1473 854 327-80v18l-324 81Z" fill="#84967C"/>
+  <path d="M1800 900 1490 840l-370 117-465-36-280 79h1425Z" fill="#DEE3D5"/>
+  <path d="m1120 957 370-117 310 60" stroke="#8C9D84" stroke-width="2"/>
+  <path d="m1120 968 370-115 310 60" stroke="#F6F7EF" stroke-width="2"/>
+  <!-- A restrained branch brings a human scale to the courtyard. -->
+  <g stroke="#5D755C" stroke-width="3" stroke-linecap="round"><path d="M1741 638c-11-78 1-127-24-180m19 120 37-61m-40 33-41-30m26-39-32-30"/></g>
+  <g fill="#7B906E"><path d="m1684 450-20-2 8 17 22 8Z"/><path d="m1691 517-20-11-1 19 27 8Z"/><path d="m1774 514 20-6-3 19-26 12Z"/><path d="m1715 459-5-23 19 6 7 22Z"/></g>
+  <path d="M0 0h1800v1000H0Z" fill="url(#fade)" opacity=".18"/>
+</svg>

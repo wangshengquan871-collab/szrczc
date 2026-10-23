@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="创建账户苏州人才政策综合展示平台，查阅科技创新创业领军人才政策。">
+  <title>创建账户 · 苏州人才政策</title>
+  <link rel="icon" href="assets/images/portal-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/auth.css">
+  <script defer src="js/auth.js"></script>
+</head>
+<body class="sz-auth-page" data-auth-mode="register">
+  <a class="auth-skip" href="#auth-form-title">跳转到注册表单</a>
+  <header class="auth-site-header">
+    <nav class="auth-site-nav" aria-label="登录注册导航">
+      <a class="auth-institute-link" href="登录注册.html" data-auth-link="login"><img class="auth-institute-logo" src="pages/公共资源/昆山.png" width="2952" height="326" alt="上海交通大学 · 昆山未来产业创新院"></a>
+      <div class="auth-nav-links"><a href="登录注册.html" data-auth-link="login">登录</a><a href="注册.html" data-auth-link="register" aria-current="page">注册</a></div>
+    </nav>
+  </header>
+  <main class="auth-layout">
+    <section class="auth-visual" aria-labelledby="auth-platform-title">
+      <div class="auth-brand"><img src="assets/images/portal-mark.svg" width="42" height="42" alt=""><span>江南 · 苏州<small>SUZHOU TALENT POLICY</small></span></div>
+      <div class="auth-intro">
+        <p class="auth-eyebrow">POLICY / PEOPLE / POSSIBILITIES</p>
+        <h1 id="auth-platform-title">苏州人才政策</h1>
+        <p class="auth-platform-name">科技创新创业领军人才政策<br>综合展示平台</p>
+        <div class="auth-gold-line" aria-hidden="true"></div>
+        <p class="auth-intro-note">与苏州创新同行<br>让每一份潜力，找到生长的方向</p>
+      </div>
+      <img class="auth-architecture" src="assets/images/jiangnan-architecture.svg" width="1800" height="1000" fetchpriority="high" alt="白墙、黛瓦与水院组成的江南建筑插画">
+      <p class="auth-scene-caption"><span>白墙 · 黛瓦 · 水院</span><span>INNOVATION IN SUZHOU</span></p>
+    </section>
+    <section class="auth-panel" aria-labelledby="auth-form-title">
+      <p class="auth-panel-label" aria-hidden="true">SUZHOU / ACCOUNT</p>
+      <div class="auth-form-wrap">
+        <header class="auth-form-header">
+          <p class="auth-kicker">BEGIN YOUR JOURNEY</p>
+          <h2 id="auth-form-title" tabindex="-1">创建账户</h2>
+          <p class="auth-form-description">建立一个账号，开启您的政策探索。</p>
+        </header>
+        <form id="auth-form" data-auth-form method="post" action="/api/auth/register" novalidate aria-labelledby="auth-form-title">
+          <p class="auth-summary" id="auth-summary" role="alert" aria-live="assertive" tabindex="-1" hidden></p>
+          <div class="auth-field"><label for="auth-username">用户名</label><div class="auth-input-wrap"><input id="auth-username" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="30" required placeholder="为自己取一个用户名" aria-describedby="auth-username-hint auth-username-error"></div><p class="auth-field-hint" id="auth-username-hint">3–30个字符，可使用中文、字母、数字、下划线和短横线。</p><p class="auth-field-error" id="auth-username-error" data-auth-error hidden></p></div><div class="auth-field"><label for="auth-email">电子邮箱</label><div class="auth-input-wrap"><input id="auth-email" name="email" type="email" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" required placeholder="请输入电子邮箱" aria-describedby="auth-email-error"></div><p class="auth-field-error" id="auth-email-error" data-auth-error hidden></p></div><div class="auth-field"><label for="auth-password">密码</label><div class="auth-input-wrap auth-password"><input id="auth-password" name="password" type="password" autocomplete="new-password" autocapitalize="none" spellcheck="false" maxlength="64" required placeholder="设置您的登录密码" aria-describedby="auth-password-hint auth-password-error"><button class="auth-reveal" type="button" data-auth-reveal="auth-password" aria-label="显示密码" aria-pressed="false" aria-controls="auth-password" hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.4-6 10-6 10 6 10 6-3.4 6-10 6S2 12 2 12Z" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="2.7" stroke="currentColor" stroke-width="1.4"/><path class="auth-eye-slash" d="m4 4 16 16" stroke="currentColor" stroke-width="1.6"/></svg></button></div><p class="auth-field-hint" id="auth-password-hint">8–64个字符，建议组合字母、数字和符号。</p><p class="auth-field-error" id="auth-password-error" data-auth-error hidden></p></div><div class="auth-field"><label for="auth-confirmPassword">确认密码</label><div class="auth-input-wrap auth-password"><input id="auth-confirmPassword" name="confirmPassword" type="password" autocomplete="new-password" autocapitalize="none" spellcheck="false" maxlength="64" required placeholder="请再次输入密码" aria-describedby="auth-confirmPassword-error"><button class="auth-reveal" type="button" data-auth-reveal="auth-confirmPassword" aria-label="显示确认密码" aria-pressed="false" aria-controls="auth-confirmPassword" hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.4-6 10-6 10 6 10 6-3.4 6-10 6S2 12 2 12Z" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="2.7" stroke="currentColor" stroke-width="1.4"/><path class="auth-eye-slash" d="m4 4 16 16" stroke="currentColor" stroke-width="1.6"/></svg></button></div><p class="auth-field-error" id="auth-confirmPassword-error" data-auth-error hidden></p></div>
+          <button class="auth-submit" type="submit" data-auth-submit disabled><span class="auth-spinner" aria-hidden="true" hidden></span><span data-auth-submit-label>创建账户</span></button>
+          <p class="auth-switch">已有账号？<a href="登录注册.html" data-auth-link="login">返回登录</a></p>
+        </form>
+        <div class="auth-success" id="auth-success" role="status" aria-live="polite" tabindex="-1" hidden><h3>注册成功</h3><p>账户已创建，请使用新账号登录。</p><a href="登录注册.html" data-auth-link="login">前往登录 →</a></div>
+        <noscript><p class="auth-noscript">请启用JavaScript以使用登录和注册。您仍可通过页面链接切换表单。</p></noscript>
+        <p class="auth-form-footer"><svg viewBox="0 0 16 18" fill="none" aria-hidden="true"><path d="M3 8V5a5 5 0 0 1 10 0v3M2 8h12v8H2zM8 11v3" stroke="currentColor" stroke-width="1.2"/></svg><span>苏州人才政策 · 账户服务</span></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
